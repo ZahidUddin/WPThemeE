@@ -25,16 +25,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 <link href="https://db.onlinewebfonts.com/c/0fb11be8781037453723dda767b71596?family=Geogrotesque+Regular" rel="stylesheet">
 
-<script src="https://assets.flex.twilio.com/releases/flex-webchat-ui/2.9.4/twilio-flex-webchat.min.js" integrity="sha512-dTCuWmpLM5hU93AkDjgZjRGT0dKNwJZgriDAVq6ToVtdr3SBFByDMqlRxg7BuXAuv2sgNcWZdUGt5mWjHK3x1A==" crossorigin="anonymous" type="text/javascript"></script>
-
-
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-
-
-
-
-<!-- Cloudflare:Zaraz handles Google tag (gtag.js) -->
-<!-- Cloudflare:Zaraz handles Hubspot -->
 
 	<?php wp_head(); ?>
 
