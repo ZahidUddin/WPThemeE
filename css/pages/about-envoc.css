@@ -3,7 +3,7 @@ html {
 }
 
 .hero {
-    background: url("../../assets/images/about-envoc/about-hero-bg.png");
+    background: url("../../assets/images/about-WPThemeE/about-hero-bg.png");
     width: 100%;
      height: 522px; 
     background-position: center;
@@ -209,7 +209,7 @@ ul.core-value__list--item {
 }
 
 .about__core__values {
-    background: url("../../assets/images/about-envoc/core-value-texure.png");
+    background: url("../../assets/images/about-WPThemeE/core-value-texure.png");
     width: 100%;
     min-height: 440px;
     background-position: center;
@@ -421,7 +421,7 @@ ul.core-value__list--item {
 
 /*career section*/
 .about__careers-wrapper {
-    background: url("https://envoc.ciked.com/wp-content/uploads/2024/04/careers-bg.png");
+    background: url("https://WPThemeE.ciked.com/wp-content/uploads/2024/04/careers-bg.png");
     width: 100%;
     background-position: center;
     background-size: cover;

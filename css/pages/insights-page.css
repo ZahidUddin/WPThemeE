@@ -262,26 +262,26 @@
   background: #e1e1e1;
 }
 
-.envoc_accordion_fade{
+.WPThemeE_accordion_fade{
     font-family: "abel-regular";
     font-size: 28px;
 }
 
-.envoc_accordion_fade > li.active > ul.children  { 
+.WPThemeE_accordion_fade > li.active > ul.children  { 
   max-height: 250px;
   overflow: visible;
 }
 
-.envoc_accordion_fade > li.active > ul.children > li  { 
+.WPThemeE_accordion_fade > li.active > ul.children > li  { 
   max-height: 250px;
   overflow: visible;
 }
 
-.envoc_accordion_fade > li.active > .title::after  { 
+.WPThemeE_accordion_fade > li.active > .title::after  { 
     transform: rotate(270deg);
 }
 
-.envoc_accordion_fade > li > .title{
+.WPThemeE_accordion_fade > li > .title{
     /*background: black;*/
     /*color: white;*/
     margin-bottom: 20px;
@@ -290,7 +290,7 @@
     user-select: none;
 }
 
-.envoc_accordion_fade > li > .title::after {
+.WPThemeE_accordion_fade > li > .title::after {
     content: ">";
     /* border: 1px solid; */
     transform: rotate(90deg);
@@ -309,7 +309,7 @@
     transition: .2s ease;
 }
 
-.envoc_accordion_fade > li > .children {
+.WPThemeE_accordion_fade > li > .children {
   /*padding: 0 18px;*/
   /*background-color: white;*/
   margin-left: 15px;
@@ -319,7 +319,7 @@
   transition: max-height 0.2s ease-out;
 }
 
-.envoc_accordion_fade > li > .children > li{
+.WPThemeE_accordion_fade > li > .children > li{
     font-size: 2rem;
     font-family: "abel-regular";
     /*margin: 5px 0;*/
@@ -334,22 +334,22 @@
     overflow: hidden;
 }
 
-/*.envoc_accordion_fade .category-11{*/
+/*.WPThemeE_accordion_fade .category-11{*/
 /*    margin-bottom: 30px;*/
 /*    position: relative;*/
 /*}*/
 
-/*.envoc_accordion_fade .category-11{*/
+/*.WPThemeE_accordion_fade .category-11{*/
     /*margin-bottom: 30px;*/
 /*    position: relative;*/
 /*}*/
 
-/*.envoc_accordion_fade .children {*/
+/*.WPThemeE_accordion_fade .children {*/
 /*  display: none;*/
   /*border: 1px solid red;*/
 /*}*/
 
-/*.envoc_accordion_fade .active .children {*/
+/*.WPThemeE_accordion_fade .active .children {*/
 /*  display: block;*/
 /*}*/
 

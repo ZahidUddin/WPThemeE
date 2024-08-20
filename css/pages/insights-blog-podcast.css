@@ -218,7 +218,7 @@ padding: 100px 0;
     display: none!important;
 }
 
-.envoc_audio_dropdown{
+.WPThemeE_audio_dropdown{
     background: white;
     position: absolute;
     top: -61px;
@@ -229,7 +229,7 @@ padding: 100px 0;
     gap: 15px;
 }
 
-.envoc_audio_dropdown_audio_numb{
+.WPThemeE_audio_dropdown_audio_numb{
     font-size: 18px;
 }
 
@@ -311,122 +311,122 @@ padding: 100px 0;
 
 
 /* audio player */
-.envoc-player-container {
+.WPThemeE-player-container {
   width: 100%;
 }
 
 @media (min-width: 640px) {
-  .envoc-player-container {
+  .WPThemeE-player-container {
     max-width: 640px;
   }
 }
 
 @media (min-width: 768px) {
-  .envoc-player-container {
+  .WPThemeE-player-container {
     max-width: 768px;
   }
 }
 
 @media (min-width: 1024px) {
-  .envoc-player-container {
+  .WPThemeE-player-container {
     max-width: 1024px;
   }
 }
 
 @media (min-width: 1280px) {
-  .envoc-player-container {
+  .WPThemeE-player-container {
     max-width: 1280px;
   }
 }
 
 @media (min-width: 1536px) {
-  .envoc-player-container {
+  .WPThemeE-player-container {
     max-width: 1536px;
   }
 }
 
-.envoc-player-col-start-1 {
+.WPThemeE-player-col-start-1 {
   grid-column-start: 1 !important;
 }
 
-.envoc-player-col-end-12 {
+.WPThemeE-player-col-end-12 {
   grid-column-end: 12 !important;
 }
 
-.envoc-player-mx-auto {
+.WPThemeE-player-mx-auto {
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-.envoc-player-my-0 {
+.WPThemeE-player-my-0 {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
 
-.envoc-player-flex {
+.WPThemeE-player-flex {
   display: flex !important;
 }
 
-.envoc-player-grid {
+.WPThemeE-player-grid {
   display: grid !important;
 }
 
-.envoc-player-w-full {
+.WPThemeE-player-w-full {
   width: 100% !important;
 }
 
-.envoc-player-cursor-pointer {
+.WPThemeE-player-cursor-pointer {
   cursor: pointer !important;
 }
 
-.envoc-player-grid-cols-12 {
+.WPThemeE-player-grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr)) !important;
 }
 
-.envoc-player-items-center {
+.WPThemeE-player-items-center {
   align-items: center !important;
 }
 
-.envoc-player-justify-center {
+.WPThemeE-player-justify-center {
   justify-content: center !important;
 }
 
-.envoc-player-gap-20 {
+.WPThemeE-player-gap-20 {
   gap: 5rem !important;
 }
 
-.envoc-player-gap-6 {
+.WPThemeE-player-gap-6 {
   gap: 1.5rem !important;
 }
 
-.envoc-player-gap-9 {
+.WPThemeE-player-gap-9 {
   gap: 2.25rem !important;
 }
 
-.envoc-player-rounded-lg {
+.WPThemeE-player-rounded-lg {
   border-radius: 0.5rem !important;
 }
 
-.envoc-player-bg-gray-200 {
+.WPThemeE-player-bg-gray-200 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity)) !important;
 }
 
-.envoc-player-bg-primary {
+.WPThemeE-player-bg-primary {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(41 60 127 / var(--tw-bg-opacity)) !important;
 }
 
-.envoc-player-p-16 {
+.WPThemeE-player-p-16 {
   padding: 4rem !important;
 }
 
-.envoc-player-text-white {
+.WPThemeE-player-text-white {
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 
-#envoc-player-range {
+#WPThemeE-player-range {
   /* removing default appearance */
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -444,7 +444,7 @@ padding: 100px 0;
 
 /* Thumb: webkit */
 
-#envoc-player-range::-webkit-slider-thumb {
+#WPThemeE-player-range::-webkit-slider-thumb {
   /* removing default appearance */
   -webkit-appearance: none;
   appearance: none;
@@ -461,7 +461,7 @@ padding: 100px 0;
 
 /* Thumb: Firefox */
 
-#envoc-player-range::-moz-range-thumb {
+#WPThemeE-player-range::-moz-range-thumb {
   height: 15px;
   width: 15px;
   background-color: rgb(0, 255, 0);
@@ -475,19 +475,19 @@ padding: 100px 0;
 /* Hover, active & focus Thumb: Webkit */
 
 @media (min-width: 1024px) {
-  .lg\:envoc-player-col-start-1 {
+  .lg\:WPThemeE-player-col-start-1 {
     grid-column-start: 1 !important;
   }
 
-  .lg\:envoc-player-col-start-10 {
+  .lg\:WPThemeE-player-col-start-10 {
     grid-column-start: 10 !important;
   }
 
-  .lg\:envoc-player-col-end-10 {
+  .lg\:WPThemeE-player-col-end-10 {
     grid-column-end: 10 !important;
   }
 
-  .lg\:envoc-player-col-end-12 {
+  .lg\:WPThemeE-player-col-end-12 {
     grid-column-end: 12 !important;
   }
 }

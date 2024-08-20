@@ -128,7 +128,7 @@
   align-items: center;
   gap: 24px;
 }
-.case__study-content--text-envoc__team .case__study-content--heading {
+.case__study-content--text-WPThemeE__team .case__study-content--heading {
      color: #829d21;
      font-size: 40px;
      line-height: 60px;
@@ -146,7 +146,7 @@
     font-family: 'geogrotesque-semiBold';
     color: #829d21;
 }
-.case__study-content--text-envoc__team .header__black {
+.case__study-content--text-WPThemeE__team .header__black {
     font-size: 48px;
     color: #666666;
     line-height: 72px;
@@ -160,10 +160,10 @@
     display:block;
 }
 
-.case__study-content--text-envoc__team ul{
+.case__study-content--text-WPThemeE__team ul{
   list-style: disc;
 }
-.case__study-content--text-envoc__team ul li {
+.case__study-content--text-WPThemeE__team ul li {
     font-size: 24px;
     color: #3e3e3e!important;
     line-height: 33px;

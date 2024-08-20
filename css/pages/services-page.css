@@ -383,7 +383,7 @@ font-size: 18px;
     margin: 90px 0;
     padding: 90px 0;
     margin-bottom: 0;
-    background-image: url(https://envoc.ciked.com/wp-content/uploads/2024/04/team-dev-bg.png);
+    background-image: url(https://WPThemeE.ciked.com/wp-content/uploads/2024/04/team-dev-bg.png);
     background-size: cover;
 }
 
@@ -415,7 +415,7 @@ font-size: 18px;
 }
 
 .dev-team-item {
-  background: url('https://envoc.ciked.com/wp-content/uploads/2024/04/top.png');
+  background: url('https://WPThemeE.ciked.com/wp-content/uploads/2024/04/top.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -444,11 +444,11 @@ font-size: 18px;
 }
 
 .dev-team-item:nth-child(2) {
-  background-image: url('https://envoc.ciked.com/wp-content/uploads/2024/04/middle.png');
+  background-image: url('https://WPThemeE.ciked.com/wp-content/uploads/2024/04/middle.png');
 }
 
 .dev-team-item:nth-child(3) {
-  background-image: url('https://envoc.ciked.com/wp-content/uploads/2024/04/bottom.png');
+  background-image: url('https://WPThemeE.ciked.com/wp-content/uploads/2024/04/bottom.png');
 }
 
 .dev-team-right {
