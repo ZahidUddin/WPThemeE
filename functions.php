@@ -561,8 +561,6 @@ function enqueue_custom_scripts() {
     ));
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
-
-require get_template_directory() . '/inc/hubspot-form.php';
  
 add_action('wp_ajax_fetch_posts_by_category', 'fetch_posts_by_category');
 add_action('wp_ajax_nopriv_fetch_posts_by_category', 'fetch_posts_by_category'); // Allow for non-logged in users
