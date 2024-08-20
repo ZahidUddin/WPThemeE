@@ -1,0 +1,28 @@
+/* All Fonts */
+@import url("./fonts.css");
+
+/* Reset/Normalize */
+@import url("./reset.css");
+
+/* Base Styles */
+@import url("./base.css");
+
+/* Components */
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./buttons.css");
+
+/* Page-Specific Styles */
+@import url('./pages/home-page.css');
+@import url('./pages/services-page.css');
+@import url('./pages/insights-page.css');
+@import url('./pages/insights-blog-page.css');
+@import url('./pages/about-envoc.css');
+@import url('./pages/contact.css');
+@import url('./pages/case-studies.css');
+@import url('./pages/blog-article.css');
+@import url('./pages/insights-blog-podcast.css');
+@import url('./pages/our-work.css');
+
+
+

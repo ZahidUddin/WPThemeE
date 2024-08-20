@@ -1,0 +1,202 @@
+.contact-hero {
+    background: url("../../assets/images/contact/contact-hero-bg.png");
+    width: 100%;
+    background-position: center;
+    height: 522px;
+    background-size: cover;
+}
+
+.hero__content--heading{
+    font-size: 100px!important;
+    font-weight: 400!important;
+}
+.contact-hero .hero__content--inner{
+  width: 75%;
+  padding-top: 270px;
+  padding-bottom: 80px;
+}
+/*contact form section*/
+
+.contact-form {
+    padding: 100px 0;
+    background: #f8f8f8;
+}
+.contact-form__content--inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 8rem;
+}
+.contact-form__content--heading {
+    font-size: 30px;
+    color: #8eac20;
+    line-height: 33px;
+    font-family: "abel-regular";
+    margin-top: 24px;
+
+}
+.contact-form__content--text {
+    font-size: 24px;
+    color: #666666;
+    line-height: 30px;
+    /*margin-top: 24px;*/
+    margin-bottom: 16px;
+    font-family: "abel-regular";
+  
+}
+.contact-blog__content--right__form h2 {
+    font-size: 30px;
+    font-weight: medium;
+    line-height: 38px;
+    font-family: "abel-regular";
+}
+.contact-form__button-wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.contact-form__button-wrapper button{
+ margin-top: 0;
+}
+.contact-form--socials-icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.contact-form--socials-icons img{
+  height: 48px;
+    width: 48px;
+}
+.contact-form--socials-icons img:hover{
+  transform: scale(1.1);
+    transition:     0.3s;
+}
+.contact-hr{
+    border: 1px solid #cccccc;
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 48px;
+}
+.contact-bottom-content{
+   font-size: 36px;
+    color: #666666;
+    line-height: 50px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-family: "abel-regular";
+}
+.contact-bottom-content a{
+    color: #a5bd57;
+}
+.contact-form__info--left{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 12px;
+}
+.contact-form__info--text a{
+    font-size: 30px;
+    color: #666666;
+    line-height: 33px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-family: "abel-regular";
+ 
+}
+@media (max-width: 1024px) {
+
+  .contact-form__content--inner{
+    display:flex;
+    flex-direction:column;
+    
+    }
+      .contact-form__content--inner iframe{
+    margin:0 auto!important;
+    width:100%!important;
+    
+    
+    }
+       .contact-form__content--inner iframe:nth-child(1) {
+    order: 2 !important;
+}
+  .location-maps{
+        display: flex!important;
+    flex-direction: column!important;
+    }
+    .contact-form__content--heading {
+
+        margin-top: 40px!important;
+    }
+    .contact-form__content--text {
+        margin-bottom:40px!important;
+    }
+
+
+
+}
+@media (max-width: 768px) {
+    .contact-form__content--inner {
+        display: block;
+    }
+    .contact-form__content--heading {
+        font-size: 24px!important;
+         margin-top: 40px!important;
+    }
+    .contact-form__content--text {
+        font-size: 18px!important;
+        margin-bottom:40px!important;
+    }
+    .contact-form__button-wrapper {
+        display: block;
+    }
+    .contact-form--socials-icons {
+        margin-top: 24px;
+        display: flex;
+    }
+    .contact-form__info--left {
+        /* display: block; */
+    }
+    .contact-hero{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .contact-hero .hero__content--inner {
+    padding: 50px 0!important;
+       width: 100%!important;
+}
+.contact-blog__content--right__form h2 {
+    font-size: 24px!important;
+    margin-top: 40px!important;
+}
+.hero__content--text {
+    width: 100% !important; 
+}
+.hero__content--heading{
+font-size:80px!important;
+}
+       .contact-blog__content--left--icons--wrapper {
+      
+        margin-top: 30px;
+    }
+    .contact-form {
+    padding: 30px 0;
+}
+  .contact-bottom-content {
+    font-size: 26px!important;
+    margin-top: 20px;
+}
+.contact-form__info--text a {
+    font-size: 24px!important;
+
+}
+   .contact-form__content--inner iframe:nth-child(1) {
+    order: 2 !important;
+}
+    .location-maps{
+        display: flex!important;
+    flex-direction: column!important;
+    }
+
+    
+}

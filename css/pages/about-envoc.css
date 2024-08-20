@@ -1,0 +1,708 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background: url("../../assets/images/about-envoc/about-hero-bg.png");
+    width: 100%;
+     height: 522px; 
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    z-index:99;
+}
+.hero .hero__content--inner{
+    
+  width: 75%;
+  padding-top: 270px;
+  padding-bottom: 80px;
+}
+.hero__content {
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.hero__content--heading {
+    font-size: 9.167rem;
+    font-family: "abel-regular";
+    color: white;
+}
+
+.hero__content--text {
+    font-size: 2.75rem;
+    color: white;
+    font-family: "abel-regular";
+    width: 60%;
+    line-height: 1.3;
+}
+
+.project-spot-light__content--left__btn {
+    background: #da4322;
+}
+
+/*about sotry section*/
+.about_story-wrapper {
+    background: #ffffff;
+}
+
+.header__about__story {
+    font-size: 3.5rem;
+    font-family: "abel-regular";
+    box-shadow: 0px 0px 14px 10px #efeeee;
+    background: white;
+    margin-bottom: 28px;
+    font-weight: bold;
+}
+
+.about__navbar_menu li a{
+    font-size: 1.75rem;
+}
+
+.header__about__story .about__navbar {
+    padding: 40px 0;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+/*.about__navbar {
+    max-width: 950px;
+}*/
+ul.core-value__list--item {
+    list-style: inside;
+    margin: 0;
+}
+.header__about__story .about__navbar .header__navbar--nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__about__story .about__navbar .header__navbar--nav__navitem--link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "geogrotesque-semiBold";
+    color: #0e3857;
+}
+
+.about__navbar_menu{
+    margin-bottom: 0!important;
+}
+
+.about__story__wrapper {
+    padding: 60px 0 100px;
+    background: white;
+}
+
+.about__story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    align-items: center;
+}
+
+.about__story--images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.about__story--image {
+    /*height: 500px;*/
+}
+
+.about__story--image img {
+    width: 100%;
+    height: 100%;
+}
+
+.about__story--content__heading {
+    font-size: 60px;
+    font-family: "abel-regular";
+    margin-bottom: 48px;
+}
+
+.about__story--content__sub__heading {
+    font-size: 2.75rem;
+    font-family: "geogrotesque-Regular";
+    margin-bottom: 36px;
+    color: #333333;
+}
+
+.about__story--content__text {
+    font-size: 22px;
+    font-family: "abel-regular";
+    margin-bottom: 40px;
+    line-height: 31px;
+    color: #333333;
+}
+
+.about__core__values--slider__dot {
+    border-top: 3px solid #7a5a91;
+    font-size: 26px;
+    font-family: 'geogrotesque-semiBold';
+    color: #fff;
+}
+.about__core__values--slider__dot p{
+    cursor: pointer;
+}
+.about__core__values--slider__dot >div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*grid-template-columns: repeat(5, minmax(0, 1fr));*/
+    padding-top: 60px;
+}
+.about__core__values--slider__dot >div p{
+    max-width: 170px;
+    margin: 0 auto;
+}
+/* about core value section */
+.core-value__carousel--wrapper {
+    margin-top: 100px;
+}
+
+.core-value__carousel--wrapper .slick-dots{
+    top: -215px;
+    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+}
+.core-value__carousel--wrapper .slick-dots li button{
+    width: 26px;
+    height: 26px;
+    background-color:#5a2489;
+    border: 3px solid #8e8e8e;
+    margin-left: -5px;
+}
+.core-value__carousel--wrapper .slick-dots li.slick-active button{
+    background-color:transparent;
+    border: 10px solid #b0d235; 
+    width: 42px;
+    height: 52px;
+    margin-top: -14px;
+    border-radius: 14px;
+    margin-left: -15px;
+}
+
+.core-value__carousel--wrapper .slick-dots li.slick-active button:after{
+   background: #b0d235; 
+    content: '';
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    left: 5px;
+    top: -32px;
+    border-radius: 2px;
+    margin-left: -15px;
+}
+.core-value__carousel--wrapper .slick-dots li button:before{
+    content: '';
+    opacity: 1;
+    font-family: 'geogrotesque-semiBold';
+}
+
+.about__core__values {
+    background: url("../../assets/images/about-envoc/core-value-texure.png");
+    width: 100%;
+    min-height: 440px;
+    background-position: center;
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-carousel2.slick-slider.slick-dotted {
+    margin-bottom: 0;
+}
+.about__core__values--content__heading {
+    font-size: 60px;
+    font-family: "geogrotesque-Regular";
+    margin-bottom: 80px;
+    color: white;
+}
+
+.about__core__values--images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    margin-top: 48px;
+}
+
+.about__core__values--image {
+    height: 300px;
+    width: 600px;
+}
+
+.about__core--content__heading {
+    font-size: 58px;
+    font-family: "abel-regular";
+    margin-bottom: 48px;
+    color: white;
+
+}
+.about-carousel2 .slick-next:before,
+.about-carousel2 .slick-prev:before{
+    color: #fff;
+}
+.about__core--content__sub__heading {
+    font-size: 34px;
+    font-family: "abel-regular";
+    margin-bottom: 48px;
+    color: white;
+}
+
+.about__core--content__text {
+    font-size: 24px;
+    font-family: "abel-regular";
+    margin-bottom: 40px;
+    line-height: 31px;
+    color: white;
+}
+
+.core-value__list--item {
+    font-size: 23px;
+    font-family: "abel-regular";
+    margin-bottom: 40px;
+    color: white;
+    list-style-type: disc;
+}
+
+/* about leadership section */
+.about__leadership {
+    background: linear-gradient(to bottom, #ffffff, #cbc9c9);
+    width: 100%;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.about__leadership--content__heading {
+    font-size: 60px;
+    font-family: "abel-regular";
+    margin-bottom: 48px;
+    color: #333333;
+}
+
+.about__leadership--card--wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
+
+.about__leadership--content__image {
+    height: 300px;
+
+}
+.about__leadership--content__image img {
+    object-fit:cover;
+    object-position:top;
+
+}
+.core-value__carousel--wrapper .slick-slide img{
+    width: 100%;
+    max-height: 100%;
+    max-width: 480px;
+}
+
+
+.about__leadership--card--inner {
+    width: 100%;
+}
+
+.about__leadership--card-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.about__leadership--card-bottom-content h3 {
+        font-size: 36px;
+    font-family: "geogrotesque-semiBold";
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 6px;
+}
+
+.about__leadership--card-bottom-content p {
+    font-size: 24px;
+    font-family: "geogrotesque-Regular";
+    line-height: 31px;
+    color: #8eac20;
+}
+
+/*about work together section*/
+.about__work__together-wrapper {
+    background: #ffffff;
+    padding: 96px 0 50px;
+}
+
+.about__work__together--content__heading {
+    font-size: 60px;
+    font-family: "abel-regular";
+    color: black;
+    padding-bottom: 80px;
+}
+
+.about__work__together--content__sub__heading {
+    font-size: 36px;
+    font-family: "geogrotesque-Regular";
+    color: black;
+    margin-bottom: 40px;
+}
+
+.about__work__together--content__text p {
+    max-width: 515px;
+}
+
+.about__work__together--content__sub__heading_last {
+   margin-top: 65px;
+}
+
+.about__work__together--content__text {
+    font-size: 24px;
+    font-family: "abel-regular";
+    line-height: 31px;
+    color: black;
+    width: 50%;
+    flex-shrink: 0;
+}
+.about__work__together--content__text p{
+    max-width: 550px;
+}
+.about__work__together--content__inner-left {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.about__work__together--content__inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.about__work__together--content__inner.reverse {
+    flex-direction: row-reverse;
+}
+.reverse .about__work__together--content__image img{
+    margin-left: 0;
+    margin-right: auto;
+}
+.reverse .about__work__together--content__text{
+    text-align: right;
+    margin-right: 60px;
+    width: calc(50% - 60px);
+}
+.reverse .about__work__together--content__text p{
+    margin-left: auto;
+}
+.reverse .about__work__together--content__image {
+    margin-right: 0;
+    width: 50%;
+}
+.about__work__together--content__image {
+    width:calc(50% - 60px);
+    margin-right: 60px;
+    flex-shrink: 0;
+}
+
+.about__work__together--content__image img{
+    max-height: 400px;
+    height: 100%;
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+}
+
+/*career section*/
+.about__careers-wrapper {
+    background: url("https://envoc.ciked.com/wp-content/uploads/2024/04/careers-bg.png");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.about__careers--content__text-white-border {
+    border-left: 1px solid #eff7d8;
+    padding-left: 3rem;
+}
+
+.about__careers--content__heading {
+    font-size: 5.75rem;
+    font-family: "abel-regular";
+    margin-bottom: 48px;
+    color: #333333;
+}
+
+.about__careers--content__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.about__careers--content__sub__heading {
+    font-size: 5.75rem;
+    line-height: 60px;
+    font-family: "geogrotesque-Regular";
+    margin-bottom: 40px;
+    color: #396a11;
+}
+
+.about__careers--content__text {
+    font-size: 30px;
+    font-family: "abel-regular";
+    margin-bottom: 50px;
+    line-height: 38px;
+    color: #4d4d4d;
+    padding-top: 18px;
+}
+
+.about__careers--content__text-red {
+    font-size: 24px;
+    font-family: "geogrotesque-Regular";
+    margin-bottom: 40px;
+    line-height: 31px;
+    font-weight: bold;
+    color: #bb510b;
+}
+
+.about__careers--content__text-gray {
+    font-size: 24px;
+    font-family: "abel-regular";
+    margin-bottom: 6px;
+    line-height: 31px;
+    color: #333333;
+}
+
+.about__careers--content__text-name {
+    font-size: 25px;
+    font-family: "abel-regular";
+    line-height: 35px;
+    color: #4d4d4d;
+}
+
+.about__careers--content__sub__positions {
+    font-size: 2.75rem;
+    font-family: "geogrotesque-semiBold";
+    margin-bottom: 48px;
+    font-weight: bold;
+    color: #4d4d4d;
+}
+
+.about__careers--content__text-white-border-div {
+    margin-bottom: 5rem!important;
+}
+
+.about__careers--content__text-address {
+    font-size: 34px;
+    font-family: "abel-regular";
+    line-height: 38px;
+    color: #4d4d4d;
+}
+
+.about__careers--content__text-apply {
+    margin-bottom: 24px;
+}
+
+.about__careers--content__text-apply a {
+    color: #bb510b;
+    font-size: 24px;
+    font-family: "geogrotesque-semiBold";
+    font-weight: bold;
+
+}
+
+.about__careers--avatar-wrapper {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.about__careers--avatar-content__heading {
+    font-size: 30px;
+    font-family: "geogrotesque-semiBold";
+    font-weight: 600;
+    color: #bb510b;
+}
+.about__careers--avatar-content__text {
+  font-size: 34px;
+    font-family: "abel-regular";
+    margin-bottom: 28px;
+    line-height: 45px;
+    color: #4d4d4d;
+    max-width: 1000px;
+}
+.about__careers--avatar{
+    flex-shrink: 0;
+}
+@media only screen and (max-width: 1199px) {
+    .about__navbar {
+        padding: 60px 0;
+        overflow: auto;
+        text-wrap: nowrap;
+    }
+    .about__leadership--card--wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .about__work__together-wrapper {
+        padding: 60px 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .hero {
+        padding: 100px 0;
+    }
+    .about__story {
+        grid-template-columns: 1fr;
+    }
+    .about__leadership--card--wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about__work__together--content__inner {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .about__work__together--content__heading {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .about__careers--content__inner {
+        grid-template-columns: 1fr;
+    }
+    .about__careers--avatar-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.cta__btn{
+    transition: all .4s;
+}
+.cta__btn:hover{
+    opacity: .7;
+}
+
+@media only screen and (max-width: 575px) {
+    .about__leadership--card--wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .about__leadership--content__image {
+        height: 300px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .about__core__values {
+        margin-top: 30px;
+    }
+    .about__story {
+    grid-gap: 10px;
+}
+.about__story--image img {
+    height: 300px!important;
+    object-fit:cover!important;
+    border-radius: 10px!important;
+    margin-bottom:30px!important;
+}
+
+
+.about__story--content__heading {
+    font-size: 40px!important;
+    margin-bottom: 28px!important;
+}
+.core-value__carousel--wrapper .slick-dots{
+position:absolute;
+    top: 0px;
+    height: auto;
+    bottom: 0;
+}
+
+.about__leadership {
+    padding: 50px 0!important;
+}
+.about__leadership--content__heading {
+    font-size: 40px;
+    margin-bottom: 28px;
+
+}
+.about__leadership--card--wrapper {
+    gap: 30px;
+}
+.about__leadership--content__image img {
+    object-fit: cover;
+    object-position: top;
+    height: 300px!important;
+    border-radius: 10px!important;
+}
+.about__leadership--card-bottom-content p {
+    font-size: 20px!important;
+
+}
+.about__leadership--card-bottom-content h3 {
+    font-size: 24px!important;
+}
+.about__work__together--content__heading {
+    font-size: 40px!important;
+    padding-bottom: 20px!important;
+}
+.about__work__together--content__image img {
+        height: 300px!important;
+        object-fit:cover!important;
+        border-radius:10px;
+    }
+
+
+.about__careers-wrapper {
+
+    padding: 30px 0!important;
+}
+.about__careers--content__heading {
+    font-size: 48px!important;
+    margin-bottom: 0!important;
+}
+.about__careers--content__inner {
+    gap: 10px!important;
+}
+.about__careers--content__sub__heading {
+    font-size: 48px!important;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-top:10px!important;
+}
+.about__careers--content__text {
+    font-size: 22px!important;
+    margin-bottom: 20px!important;
+    line-height: 38px!important;
+}
+.about__careers--avatar-content__text {
+    font-size: 24px!important;
+    margin-bottom: 18px!important;
+}
+.about__careers--avatar-content__heading {
+    font-size: 20px;
+    font-family: "geogrotesque-semiBold";
+    font-weight: 600;
+    color: #bb510b;
+}
+
+.header__about__story .about__navbar .header__navbar--nav {
+flex-direction:column!important;
+}
+    .about__navbar {
+    overflow:hidden;
+    }
+
+
+
+}

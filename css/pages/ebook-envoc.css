@@ -1,0 +1,159 @@
+      .ebook-wrapper{
+            background: #ffff;
+        }
+        .ebook-hero img{
+            height: 180px;
+            width: 100%;
+        }
+        .ebook-inner-content-wrapper{
+            padding-top: 100px;
+            padding-bottom: 200px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap:48px;
+        }
+        .ebook-cover-wrapper{
+            display: flex;
+            align-items: end;
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+        .ebook-cover-text h5{
+            font-size:24px;
+             color: #817f7f;
+            font-family: "abel-regular";
+            margin-bottom:24px;
+        }
+         .ebook-cover-text h1{
+            font-size:60px;
+            color: #333333;
+            font-family: "abel-regular";
+        }
+        .ebook-dropdown-wrapper{
+                padding: 0px 48px 48px 48px;
+        }
+            .ebook-details-text p{
+            font-size: 24px;
+            color: #000000;
+            font-family: "abel-regular";
+            margin-bottom: 48px;
+            font-weight: 500;
+        }
+        .ebook-dropdown-wrapper ul{
+            list-style: none;
+            padding: 0;
+        }
+        .ebook-dropdown-wrapper li{
+        font-size: 30px;
+            color: #000000;
+            font-family: "abel-regular";
+            margin-bottom: 16px;
+        }
+        .ebook-form-wrapper{
+            background:#274359;
+            padding: 24px;
+          height: fit-content;
+        }
+        .ebook-form-wrapper .form-group input{
+            border: 2px solid #4b4c4e;
+            padding: 16px;
+            width: 100%;
+            border-radius: 16px;
+            margin-bottom: 30px;
+            background: #dddddd;
+            outline: none;
+            font-size: 24px;
+            color: #4d4d4d;
+            font-family: "abel-regular";
+        }
+        .ebook-form-wrapper h3{
+           text-transform: uppercase;
+            font-size: 36px;
+            margin-bottom: 30px;
+            margin-top: 0;
+            text-align: center;
+            font-family: "abel-regular";
+            color: #ffff;
+        }
+        .company-phone-text{
+            margin-bottom: 48px;
+            color: #484c4f;
+            margin-top:24px;
+            font-size: 24px;
+                font-family: "abel-regular";
+            
+        }
+        .subscribe-label-text{
+            margin-bottom: 48px;
+            margin-top: 24px;
+             font-family: "abel-regular";
+             display:flex;
+             align-items:center;
+        }
+      .subscribe-label-text #subscribe{
+          margin-right: 16px;
+          height:20px;
+          width:20px;
+        }
+        .ebook-form-wrapper .subscribe-label-text label{
+            font-size: 24px;
+            color: #ffff;
+             font-family: "abel-regular";
+        }
+          .ebook-form-wrapper .download-now-btn-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ebook-form-wrapper .download-now-btn{
+            background: #b0d235;
+            font-size: 2.333rem;
+            color: white;
+            padding: 12px 40px;
+            border-radius: 12px;
+            cursor: pointer;
+            text-transform: uppercase;
+            border: none;
+            margin-bottom:24px;
+             font-family: "abel-regular";
+        }
+              @media screen and (max-width: 992px) {
+ .ebook-inner-content-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ebook-cover-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+  
+}
+        
+        @media screen and (max-width: 768px) {
+    .ebook-inner-content-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .ebook-hero img {
+        height: auto;
+    }
+
+    .ebook-cover-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ebook-details-text,
+    .ebook-dropdown-wrapper {
+        padding: 0 24px;
+    }
+
+    .ebook-form-wrapper {
+        padding: 24px;
+    }
+    .ebook-inner-content-wrapper{
+        padding-top:48px;
+        padding-bottom:48px;
+    }
+}

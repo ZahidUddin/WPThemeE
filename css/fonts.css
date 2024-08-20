@@ -1,0 +1,17 @@
+@font-face {
+  src: url("../assets/fonts/Abel-Regular.ttf") format("truetype");
+  font-family: "abel-regular";
+}
+
+@font-face {
+  src: url("../assets/fonts/Geogrotesque-SemiBold.otf") format("truetype");
+  font-family: "geogrotesque-semiBold";
+}
+@font-face {
+  src: url("../assets/fonts/Geogrotesque-Regular.ttf") format("truetype");
+  font-family: "geogrotesque-regular";
+}
+@font-face {
+  src: url("../assets/fonts/MYRIADPRO-REGULAR.OTF") format("truetype");
+  font-family: "myriadpro-regular";
+}

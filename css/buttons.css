@@ -1,0 +1,45 @@
+.cta__btn {
+  background: #274359;
+  font-size: 2.333rem;
+  font-family: "geogrotesque-semiBold";
+  color: white;
+  padding: 12px 40px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.cta__btn a{
+    color:white;
+}
+.article__btn {
+  background:red;
+  font-size: 2.333rem;
+  font-family: "geogrotesque-semiBold";
+  color: white;
+  padding: 12px 40px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.listen-now__btn {
+  background:#b0d235;
+  font-size: 2.333rem;
+  font-family: "geogrotesque-semiBold";
+  color: #274359;
+  padding: 12px 40px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.orange-btn {
+  background: #853c06;
+  font-size: 2.333rem;
+  font-family: "geogrotesque-semiBold";
+  color: white;
+  padding: 12px 40px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.cta__btn:active,
+.orange-btn:active,
+.article__btn:active,
+.listen-now__btn:active {
+  opacity: 0.8;
+}

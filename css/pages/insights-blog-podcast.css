@@ -1,0 +1,493 @@
+
+.insight-blog-podcast {
+    width: 100%;
+    background: url("../../assets/images/insight-blog-podcast/insight-blog-podcast-bg-new.png") center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.insight-blog-hero-podcast__content--inner {
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+@media only screen and (max-width: 767px) {
+  .insight-blog-hero-podcast__content--inner {
+        align-items: flex-start;
+        margin-bottom: 30px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .podcast_content_inner_icon {
+        gap: 5px !important;
+    }
+}
+.insight-blog-podcast-hero__content--heading {
+    font-size: 37px;
+    /* font-family: "abel-regular"; */
+    /* margin-bottom: 48px; */
+    font-weight: bold;
+    color: #384a87;
+    width: 60%;
+}
+.insight-blog-podcast__main-content--inner{
+    padding-top: 100px;
+}
+.insight-blog-podcast__content--inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+.insight-blog-podcast-right-image{
+    margin-top: -18px;
+    height: 100%;
+}
+.insight-blog-podcast-play-icon{
+    position: absolute;
+    left: 3px;
+    bottom: 12%;
+}
+.insight-blog-podcast-dropdown-section{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "abel-regular";
+}
+.insight-blog-podcast-video-wrapper{
+padding: 100px 0;
+    background: #ffffff;
+}
+.insight-blog-podcast__player-wrapper{
+    position: relative;
+
+}
+.insight-blog-podcast-video__content--header{
+    font-size: 3.75rem;
+    font-family: "abel-regular";
+    margin-bottom: 48px;
+    font-weight: bold;
+    color: #384a87;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.insight-blog-podcast-video__content--right{
+    display: flex;
+    gap: 35px;
+    margin-bottom: 6rem;
+}
+.insight-blog-podcast-video__card--heading{
+    font-size: 44px;
+    font-family: "abel-regular";
+    margin-bottom: 24px;
+    font-weight: 400;
+    color: #5c710f;
+}
+.insight-blog-podcast-video__card--heading:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.insight-blog-podcast-video__card--sub_heading{
+    font-size: 24px;
+    font-family: "abel-regular";
+    font-weight: 400;
+    color: #7b7c83;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.insight-blog-podcast-time-date-wrapper{
+    display: flex;
+    gap: 100px;
+    /*margin-bottom: 24px;*/
+    font-weight: 400;
+    font-family: "abel-regular";
+    font-size: 24px;
+    color: grey;
+}
+.insight-blog-podcast-video__card--text{
+    font-size: 24px;
+    font-family: "abel-regular";
+    line-height: 31px;
+    color: #384a87;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.insight-blog-podcast_media__icons{
+    display: flex;
+    justify-content: end;
+    margin-top: 24px;
+}
+.insight-blog-podcast-audio-wrapper{
+    padding: 48px 0;
+    background: #293c7f;
+}
+.insight-blog-podcast-audio-player__header{
+    font-size: 3.75rem;
+    font-family: "abel-regular";
+    margin-bottom: 24px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.insight-blog-podcast-audio-wrapper .plyr__controls{
+    background: #293c7f !important;
+    color: #fff !important;
+    padding: 0!important
+}
+
+.hero__content--inner > h1:nth-child(1){
+    margin-bottom: 0;
+    width: 70%
+}
+
+.hero__content--text{
+    widtH: 100%
+}
+
+.podcast__content_heading{
+    width: 100%!important;
+    display: flex;
+    flex-direction: column;
+}
+
+.podcast__content_text{
+    font-size: 30px!important;
+}
+
+
+.podcast__content_heading_first{
+    display: inline-flex;
+    width: 100%;
+    background: #293c7f;
+    width: 72%;
+    color: white;
+    padding-left: 15px;
+}
+
+.podcast__content_heading_second{
+    padding-left: 15px;
+    color: #4e4e4e;
+}
+
+.insight-blog-podcast-video__content--heading{
+    font-weight: 400;
+}
+
+#video-list-input-select{
+    width: 200px;
+    padding: 10px;
+    color:  #384a87;
+    border-radius: 5px;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "abel-regular";
+    /*margin-bottom: 24px;*/
+    background-color: white;
+}
+
+.insight-blog-podcast-video__content--right .player {
+    width: 350px!important
+
+}
+
+/* .insight-blog-podcast-video__content--right .player > div{
+
+    background: none!important
+} */
+
+#insights__blog_post_video .vjs-big-play-button{
+    height: 70px !important;
+    width: 70px !important;
+    border-radius: 50px !important;
+    background: #293c7f !important;
+    top: 145px !important;
+    left: 62px !important;
+}
+
+#insights__blog_post_video .vjs-modal-dialog .vjs-modal-dialog-content, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before{
+    position: absolute!important;
+    top: 20px!important;
+    left: 2px!important;
+    width: 100%!important;
+    height: 100%!important;
+    transform: scale(1.7)!important;
+}
+
+#insights__blog_post_video .vjs-control-bar{
+    display: none!important;
+}
+
+.envoc_audio_dropdown{
+    background: white;
+    position: absolute;
+    top: -61px;
+    left: -85px;
+    padding: 15px;
+    border-radius: 15px;
+    align-items: center;
+    gap: 15px;
+}
+
+.envoc_audio_dropdown_audio_numb{
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 1280px){
+    .insight-blog-podcast__content--inner{
+        display: flex;
+        flex-direction: column
+    }
+
+    .insight-blog-podcast-right-image{
+      widtH: 100%
+    }
+
+    .hero__content--inner > h1:nth-child(1){
+        margin-bottom: 2rem;
+        width: 100%
+    }
+
+    .insight-blog-podcast-video__content--header{
+        flex-direction: column;
+    }
+
+    .insight-blog-podcast-video__content--right{
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .insight-blog-podcast-video__content--right .player{
+        width: 100%!important
+    }
+}
+
+@media (max-width: 768px) {
+    .insight-blog-podcast-hero__content--heading {
+        font-size: 2.75rem;
+        width: 100%;
+    }
+    .insight-blog-podcast__content--inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .insight-blog-podcast-right-image {
+        margin-top: 24px;
+    }
+    .insight-blog-podcast-video__content--header {
+        font-size: 2.75rem;
+    }
+    .insight-blog-podcast-video__card--heading {
+        font-size: 2.75rem;
+    }
+    .insight-blog-podcast-video__card--sub_heading {
+        font-size: 2.25rem;
+    }
+    .insight-blog-podcast-time-date-wrapper {
+        flex-direction: column;
+    }
+    .insight-blog-podcast-video__content--right {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+
+    .insight-blog-podcast-video__card--text {
+        font-size: 20px;
+    }
+    .insight-blog-podcast_media__icons {
+        justify-content: start;
+    }
+    .insight-blog-podcast-audio-player__header {
+        font-size: 2.75rem;
+    }
+
+    .hero__content--heading{
+        font-size: 48px!important;
+    }
+}
+
+
+/* audio player */
+.envoc-player-container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .envoc-player-container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .envoc-player-container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .envoc-player-container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .envoc-player-container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .envoc-player-container {
+    max-width: 1536px;
+  }
+}
+
+.envoc-player-col-start-1 {
+  grid-column-start: 1 !important;
+}
+
+.envoc-player-col-end-12 {
+  grid-column-end: 12 !important;
+}
+
+.envoc-player-mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.envoc-player-my-0 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.envoc-player-flex {
+  display: flex !important;
+}
+
+.envoc-player-grid {
+  display: grid !important;
+}
+
+.envoc-player-w-full {
+  width: 100% !important;
+}
+
+.envoc-player-cursor-pointer {
+  cursor: pointer !important;
+}
+
+.envoc-player-grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr)) !important;
+}
+
+.envoc-player-items-center {
+  align-items: center !important;
+}
+
+.envoc-player-justify-center {
+  justify-content: center !important;
+}
+
+.envoc-player-gap-20 {
+  gap: 5rem !important;
+}
+
+.envoc-player-gap-6 {
+  gap: 1.5rem !important;
+}
+
+.envoc-player-gap-9 {
+  gap: 2.25rem !important;
+}
+
+.envoc-player-rounded-lg {
+  border-radius: 0.5rem !important;
+}
+
+.envoc-player-bg-gray-200 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity)) !important;
+}
+
+.envoc-player-bg-primary {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(41 60 127 / var(--tw-bg-opacity)) !important;
+}
+
+.envoc-player-p-16 {
+  padding: 4rem !important;
+}
+
+.envoc-player-text-white {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
+#envoc-player-range {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+  /* New additions */
+  height: 6px;
+  background: #ccc;
+}
+
+/* Thumb: webkit */
+
+#envoc-player-range::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  height: 15px;
+  width: 15px;
+  background-color: #b0d235;
+  border-radius: 50%;
+  border: none;
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+
+#envoc-player-range::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 50%;
+  border: none;
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  -moz-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+@media (min-width: 1024px) {
+  .lg\:envoc-player-col-start-1 {
+    grid-column-start: 1 !important;
+  }
+
+  .lg\:envoc-player-col-start-10 {
+    grid-column-start: 10 !important;
+  }
+
+  .lg\:envoc-player-col-end-10 {
+    grid-column-end: 10 !important;
+  }
+
+  .lg\:envoc-player-col-end-12 {
+    grid-column-end: 12 !important;
+  }
+}

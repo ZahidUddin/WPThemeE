@@ -1,0 +1,183 @@
+.case__study-hero .hero__content--inner .hero__content--heading{
+  font-size: 60px!important;
+  font-weight: bold;
+  font-family: "geogrotesque-semiBold";
+}
+
+.case__study-hero .hero__content{
+        height: 100%;
+    display: flex;
+    align-items: end;
+    padding: 220px 0px 0px 0px;
+}
+
+.hero__content--inner-hero-img{
+    max-width: 450px;
+    
+}
+.hero__content--inner-hero-img img{
+    max-width:none ;
+}
+
+
+.case__study-content--text-wrapper{
+    margin-right: 60px;
+}
+.case__study-hero {
+  width: 100%;
+  background: url("../../assets/images/case-study/case-studies-bg.png") center;
+  padding: 100px 0;
+  background-size: cover;
+  /*height: 521px;*/
+}
+.hero__content--heading-img{
+        width: 990px;
+}
+.case__study-hero .hero__content--inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.case__study-back-btn a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.case__study-back-btn a span {
+  font-size: 30px;
+  /*font-weight: bold;*/
+  color: #fff;
+  margin-left: 10px;
+  font-family: "abel-regular";
+}
+.case__study-content--heading-highlight {
+  font-weight: bold;
+}
+/*case study content*/
+.case__study-content {
+  padding: 100px 0;
+}
+.case__study-content--text {
+}
+.case__study-content--heading {
+    font-size: 48px;
+    color: #666666;
+    line-height: 72px;
+    font-family: "abel-regular";
+}
+
+.case__study-content--text p {
+    /* font-size: 30px; */
+    /* color: #000000; */
+    font-size: 24px;
+    color: #666666;
+    line-height: 36px;
+    font-family: "abel-regular";
+}
+.case__study-content--text-wrapper {
+  /* padding-bottom:70px; */
+  display: grid;
+  grid-template-columns: auto 440px;
+  gap: 40px;
+}
+.case__study-content--industry-box {
+  padding: 40px;
+  background: #e1e1e1;
+  border-radius: 8px;
+  border: 2px solid silver;
+}
+.case__study-content--industry-box > ul li{
+  margin-bottom: 1rem;
+}
+
+.case__study-content--industry-box__content {
+  margin-bottom: 24px;
+}
+.case__study-content--industry-box__content--heading {
+  font-size: 30px;
+  color: #768f1a;
+  font-family: "geogrotesque-semiBold";
+ line-height: 42px;
+}
+.case__study-content--industry-box__content--text {
+  font-size: 30px;
+  color: #333333;
+  line-height: 42px;
+  font-family: "abel-regular";
+}
+.case__study-content--image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.case__study-content--text-envoc__team .case__study-content--heading {
+  color: #829d21;
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 400;
+  font-family: 'geogrotesque-regular';
+  margin-bottom:70px;
+}
+.case__study-content--industry-box .key-features {
+  font-size: 36px;
+    line-height: 60px;
+    margin-bottom: 48px;
+    font-family: 'geogrotesque-semiBold';
+     color: #829d21;
+  
+  
+}
+.case__study-content--text-envoc__team.header__black {
+    font-size: 48px;
+    color: #666666;
+    line-height: 72px;
+    font-family: "abel-regular";
+    margin-bottom: 0px;
+}
+.case__study-content--industry-box__content--text .gray-dolar{
+    color:#9f9f9f;
+}
+.case__study-content-margin{
+    margin-bottom:30px;
+    display:block;
+}
+.case__study-content--text-envoc__team ul li {
+ font-size: 30px;
+    color: #000;
+    line-height: 33px;
+    font-family: "abel-regular";
+    margin-bottom:40px;
+}
+.contact__us--btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__us--btn a {
+  padding: 10px 40px;
+  background: #274359;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  font-family: "abel-regular";
+}
+.case-study-bottom-section{
+    margin-bottom:48px;
+}
+@media (max-width: 992px) {
+  .case__study-content--text-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .case__study-hero .hero__content--inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .case__study-content--text-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

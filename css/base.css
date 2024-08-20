@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.font-primary{
+    font-family: "geogrotesque-semiBold"!important
+}
+
+.font-secondary{
+     font-family: "abel-regular"!important;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.wrapper {
+  max-width: 1536px;
+  margin: auto;
+}
+
+.w-full {
+  width: 100%;
+  height: 100%;
+}
+
+.color-primary {
+  color: #293c7f !important;
+}
+
+.color-secondary {
+  color: #8fdb65 !important;
+}
+.bg-primary {
+  background: #293c7f !important;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-none{
+    display: none!important;
+}
+
+.flex {
+  display: flex;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.relative{
+    position: relative;
+}
+
+.slick-prev:before {
+  /* content with < or >;  */
+  content: "<"!important;
+  font-weight: bold!important;
+  font-size: 3rem!important;
+  color: #000;
+}
+
+.slick-next:before {
+  /* content with < or >;  */
+  content: ">"!important;
+  font-weight: bold!important;
+  font-size: 3rem!important;
+  color: #000;
+}
+
+.overlay-1 {
+    position: relative;
+}
+
+.overlay-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* Adjust the color and opacity of the overlay */
+    z-index: 0; /* Make sure the overlay is behind the content */
+    opacity:0.2;
+}
+
+.overlay-1-insights {
+    position: relative;
+}
+
+.overlay-1-insights::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* Adjust the color and opacity of the overlay */
+    z-index: 0; /* Make sure the overlay is behind the content */
+    opacity:0.5;
+}
+
+.overlay-6 {
+    position: relative;
+}
+
+.overlay-6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black; /* Adjust the color and opacity of the overlay */
+    z-index: -1; /* Make sure the overlay is behind the content */
+    opacity:0.2;
+}
+
+.overlay-3 {
+    position: relative;
+}
+
+.overlay-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Adjust the color and opacity of the overlay */
+    z-index: 1; /* Make sure the overlay is behind the content */
+}
+
+.overlay-4 {
+    position: relative;
+}
+
+.overlay-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Adjust the color and opacity of the overlay */
+    z-index: 1; /* Make sure the overlay is behind the content */
+}
+
+.overlay-5 {
+    position: relative;
+}
+
+.overlay-5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity of the overlay */
+    z-index: 1; /* Make sure the overlay is behind the content */
+}
