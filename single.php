@@ -56,7 +56,6 @@ get_header();
 
     ?>
 
-
     <!-- hero section -->
 
     <?php
@@ -101,8 +100,6 @@ get_header();
                     </div>
                 </div>
             </section>
-
-
 
             <!-- blog article section -->
             <section class="blog__article-content">
@@ -230,7 +227,6 @@ get_header();
                     <?php else : ?>
                         <div style="display: none;"></div>
                     <?php endif; ?>
-
 
                 </div>
             </section>

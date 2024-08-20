@@ -181,7 +181,6 @@ function footer_customization( $wp_customize ) {
 
 add_action('customize_register', 'footer_customization');
 
-
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -258,8 +257,6 @@ function WPThemeE_scripts()
 	}
 }
 add_action('wp_enqueue_scripts', 'WPThemeE_scripts');
- 
-
 
 /**
  * Implement the Custom Header feature.
@@ -287,7 +284,6 @@ require get_template_directory() . '/inc/customizer.php';
 if (defined('JETPACK__VERSION')) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
 
 // Check if acf plugin active or not
 
@@ -317,8 +313,6 @@ function check_acf_plugin_on_theme_activation()
 	}
 }
 add_action('after_switch_theme', 'check_acf_plugin_on_theme_activation');
-
-
 
 class Custom_Walker_Nav_Menu extends Walker_Nav_Menu
 {
@@ -372,7 +366,6 @@ class Custom_Walker_Nav_Menu extends Walker_Nav_Menu
 		$output .= apply_filters('walker_nav_menu_start_el', $item_output, $item, $depth, $args);
 	}
 }
-
 
 class Custom_Footer_Nav_Walker extends Walker_Nav_Menu
 {
@@ -501,11 +494,6 @@ function create_case_studies_post_type()
 }
 add_action('init', 'create_case_studies_post_type');
 
-
-
-// Custom type podcast
-
-
 // Register Custom Post Type
 function create_podcast_post_type() {
     $labels = array(
@@ -574,12 +562,7 @@ function enqueue_custom_scripts() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
 
-
-
-
-
 require get_template_directory() . '/inc/hubspot-form.php';
-
  
 add_action('wp_ajax_fetch_posts_by_category', 'fetch_posts_by_category');
 add_action('wp_ajax_nopriv_fetch_posts_by_category', 'fetch_posts_by_category'); // Allow for non-logged in users
@@ -642,17 +625,14 @@ add_action('wp_ajax_nopriv_fetch_all_posts', 'fetch_all_posts'); // Allow for no
 
 
 function fetch_all_posts() {
-
-   
- $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; // Get current page number
- 
- 
- $post_args = array(
+	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1; // Get current page number
+	
+	$post_args = array(
     'posts_per_page' => 8, // Number of posts to retrieve
     'post_status' => 'publish', // Only retrieve published posts
     'orderby' => 'date', // Order by date
     'order' => 'DESC' // Descending order (latest posts first)
-);
+	);
 
     $post_query = new WP_Query($post_args);
     
@@ -692,8 +672,6 @@ function fetch_all_posts() {
     echo $msg;
     die(); // Always end with die() to prevent extra output
 }
-
-
 
 function add_blog_rewrite_rule() {
     add_rewrite_rule('^blog/([^/]+)/?$', 'index.php?name=$matches[1]', 'top');
