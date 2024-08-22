@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package envoc
+ * @package WPThemeE
  */
 
 ?>
@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<?php envoc_post_thumbnail(); ?>
+	<?php WPThemeE_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -22,7 +22,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'envoc' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'WPThemeE' ),
 				'after'  => '</div>',
 			)
 		);
@@ -36,7 +36,7 @@
 				sprintf(
 					wp_kses(
 						/* translators: %s: Name of current post. Only visible to screen readers */
-						__( 'Edit <span class="screen-reader-text">%s</span>', 'envoc' ),
+						__( 'Edit <span class="screen-reader-text">%s</span>', 'WPThemeE' ),
 						array(
 							'span' => array(
 								'class' => array(),
