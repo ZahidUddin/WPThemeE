@@ -614,13 +614,8 @@ function fetch_posts_by_category() {
     die(); // Always end with die() to prevent extra output
 }
 
-
 add_action('wp_ajax_fetch_all_posts', 'fetch_all_posts');
 add_action('wp_ajax_nopriv_fetch_all_posts', 'fetch_all_posts'); // Allow for non-logged in users
-
-
-
-
 
 function fetch_all_posts() {
 	$paged = (get_query_var('paged')) ? get_query_var('paged') : 1; // Get current page number
